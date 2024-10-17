@@ -11,6 +11,11 @@ return {
     opts = {
       ensure_installed = {
         "lua_ls",
+        "c",
+        "c++",
+        "makefile",
+        "asm_lsp",
+        "assembly",
         -- add more arguments for adding more language servers
       },
     },
@@ -32,6 +37,7 @@ return {
     opts = {
       ensure_installed = {
         "python",
+        "cppdbg",
         -- add more arguments for adding more debuggers
       },
     },
