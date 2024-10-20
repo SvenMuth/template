@@ -15,6 +15,7 @@ return {
       "html",
       "asm",
       "nasm",
+      "latex",
       -- add more arguments for adding more treesitter parsers
     },
   },
